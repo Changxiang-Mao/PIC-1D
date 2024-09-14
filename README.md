@@ -1,5 +1,14 @@
 # PIC-1D
 A one-dimensional electrostatic particle-in-cell simulation code written in C++
+# 0. Gaussian units and plasma equations
+## Maxwell equations
+
+$$\nabla\times\vec{E}=-\frac{1}{c}\frac{\partial \vec{B}}{\partial t},~~ \nabla \times\vec{B}=\frac{4\pi}{c}\vec{j}+\frac{1}{c}\frac{\partial\vec{E}}{\partial t},~~ \nabla\cdot\vec{E}=4\pi\rho_e,~~ \nabla\cdot\vec{B}=0$$
+
+$$F_{\rm Lorentz}=q\left(\vec{E}+\frac{\vec{x}\times\vec{B}}{c}\right)$$
+
+## Plasma equations
+
 # 1. Basic equations
 Low index $i$ denotes number nodes and low index $p$ denotes number of particles. The number of nodes is $N_x$.
 ## 1.1 Gather
