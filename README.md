@@ -20,6 +20,10 @@ $$m_e=9.10938215\times10^{-28}{\rm g}$$
 
 $$m_p=1.672621637\times10^{-24}{\rm g}$$
 
+## 0.4 Plasma units
+
+Mass in unit of 
+
 # 1. Basic equations
 Low index $i$ denotes number nodes and low index $p$ denotes number of particles. The number of nodes is $N_x$.
 ## 1.1 Gather
