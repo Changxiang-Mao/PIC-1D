@@ -1,13 +1,24 @@
 # PIC-1D
 A one-dimensional electrostatic particle-in-cell simulation code written in C++
 # 0. Gaussian units and plasma equations
-## Maxwell equations
+## 0.1 Maxwell equations
 
 $$\nabla\times\vec{E}=-\frac{1}{c}\frac{\partial \vec{B}}{\partial t},~~ \nabla \times\vec{B}=\frac{4\pi}{c}\vec{j}+\frac{1}{c}\frac{\partial\vec{E}}{\partial t},~~ \nabla\cdot\vec{E}=4\pi\rho_e,~~ \nabla\cdot\vec{B}=0$$
 
 $$F_{\rm Lorentz}=q\left(\vec{E}+\frac{\vec{x}\times\vec{B}}{c}\right)$$
 
-## Plasma equations
+## 0.2 Plasma equations
+
+Debye length: $$\lambda_{De}=\sqrt{\frac{T_e}{4\pi n_0e^2}}$$, plasma period: $$\tau_{pe}=\frac{1}{\omega_{pe}}=\sqrt{\frac{m_e}{4\pi n_0 e^2}}$$
+
+## 0.3 Constants
+$$c=29979245800{\rm cm/s}$$
+
+$$e=4.8032\times10^{-10}{\rm g^{1/2}cm^{3/2}s^{-1}}$$
+
+$$m_e=9.10938215\times10^{-28}{\rm g}$$
+
+$$m_p=1.672621637\times10^{-24}{\rm g}$$
 
 # 1. Basic equations
 Low index $i$ denotes number nodes and low index $p$ denotes number of particles. The number of nodes is $N_x$.
