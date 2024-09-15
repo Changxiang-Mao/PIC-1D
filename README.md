@@ -26,7 +26,9 @@ Mass in unit of $m_e$, length in unit of $\lambda_{De}$, time in unit of $\tau_{
 
 $$c=\hat{c}{\rm cm/s}=\left(\hat{c}\frac{cm}{\lambda_{De}}\frac{\tau_{pe}}{s}\right){\rm \lambda_{De}/\tau_{pe}}=\left(\hat{c}\frac{\tau}{\lambda}\right){\rm \lambda_{De}/\tau_{pe}}$$
 
-$$e=\hat{e}{\rm g^{1/2}cm^{3/2}s^{-1}}=\hat{e}\left(\frac{\rm g}{m_e}\right)^{1/2}\left(\frac{\rm cm}{\lambda_{De}}\right)^{3/2}\left(\frac{\tau_{pe}}{\rm s}\right){\rm m_e^{1/2}\lambda_{De}^{3/2}\tau_{pe}^{-1}}$$
+$$e=\hat{e}{\rm g^{1/2}cm^{3/2}s^{-1}}=\hat{e}\left(\frac{\rm g}{m_e}\right)^{1/2}\left(\frac{\rm cm}{\lambda_{De}}\right)^{3/2}\left(\frac{\tau_{pe}}{\rm s}\right)$$
+
+$${\rm m_e^{1/2} \lambda_{De}^{3/2} \tau_{pe}^{-1} }$$
 
 # 1. Basic equations
 Low index $i$ denotes number nodes and low index $p$ denotes number of particles. The number of nodes is $N_x$.
