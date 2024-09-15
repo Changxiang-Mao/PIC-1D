@@ -26,6 +26,8 @@ Mass in unit of $m_e$, length in unit of $\lambda_{De}$, time in unit of $\tau_{
 
 $$v=\hat{v}[{\rm cm/s}] = \hat{v}\frac{\rm cm}{\lambda_{De}}\frac{\tau_{pe}}{\rm s}[\lambda_{De}/\tau_{pe}]=\left(\hat{v}\frac{\tau}{\lambda}\right)[\lambda_{De}/\tau_{pe}]$$
 
+Thermal velocity is $$v_{\rm th}  = \sqrt{\frac{2T_e}{m_e}}=\sqrt{2}[{\rm \lambda_{De}/\tau_{pe}}]$$
+
 $$c=\hat{c}[{\rm cm/s}]=\left(\hat{c}\frac{cm}{\lambda_{De}}\frac{\tau_{pe}}{s}\right)[{\rm \lambda_{De}/\tau_{pe}}]=\left(\hat{c}\frac{\tau}{\lambda}\right)[{\rm \lambda_{De}/\tau_{pe}}]$$
 
 $$e=\hat{e}[{\rm g^{1/2}cm^{3/2}s^{-1}}]=\hat{e}\left(\frac{\rm g}{m_e}\right)^{1/2}\left(\frac{\rm cm}{\lambda_{De}}\right)^{3/2}\left(\frac{\tau_{pe}}{\rm s}\right)[{\rm {m_e^{1/2}}{\lambda_{De}^{3/2}}{\tau_{pe}^{-1}}}]=\left(\frac{\hat{e}\tau}{\sqrt{m\lambda^3}}\right)[{\rm {m_e^{1/2}}{\lambda_{De}^{3/2}}{\tau_{pe}^{-1}}}]$$
@@ -66,5 +68,6 @@ The position of particles are in integer time step, and the velocity of particle
 
 $$v_p^{i+1/2}=v_p^{i-1/2}+\frac{qE_p^i}{m}dt,~~~ x_p^{i+1}=x_p^i+v_p^{i+1/2}dt$$
 
-
+## 1.5 Linear equations
+C++ library Eigen: https://eigen.tuxfamily.org/dox/GettingStarted.html
 
