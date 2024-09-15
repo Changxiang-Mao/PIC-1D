@@ -71,3 +71,24 @@ $$v_p^{i+1/2}=v_p^{i-1/2}+\frac{qE_p^i}{m}dt,~~~ x_p^{i+1}=x_p^i+v_p^{i+1/2}dt$$
 ## 1.5 Linear equations
 C++ library Eigen: https://eigen.tuxfamily.org/dox/GettingStarted.html
 
+$$\begin{matrix}
+&\phi_0-\phi_{Nx-1}=0\\
+&\phi_{i-1}-2\phi_i+\phi_{i+1}=-4\pi\rho_idx^2\\
+&\phi_{Nx-2}-2\phi_{Nx-1}+\phi_{1}=-4\pi\rho_{Nx-1}dx^2
+\end{matrix}\Rightarrow A\cdot\vec{\phi}=\vec{b}$$
+
+$$A=
+\begin{pmatrix}
+&1,&0,&0,&0,&\cdots,&0,&-1\\
+&1,&-2,&1,&0,&\cdots,&0,&0\\
+&0,&1,&-2,&1,&\cdots,&0,&0\\
+&\cdots\\
+&0,&1,&0,&0,&\cdots,&1,&-2
+\end{pmatrix},b=-4\pi dx^2\begin{pmatrix}
+0\\
+\rho_1\\
+\rho_2\\
+\cdots\\
+\rho_{Nx-1}
+\end{pmatrix}
+$$
