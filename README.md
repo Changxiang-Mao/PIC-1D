@@ -105,4 +105,5 @@ We cannot use LDLT decomposition method if $A$ is asymmetric.
 
 # 2. results
 ## Energy conservation
+![image](energy.png)
 
