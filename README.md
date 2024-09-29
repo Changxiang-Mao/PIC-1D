@@ -5,7 +5,7 @@ A one-dimensional electrostatic particle-in-cell simulation code written in C++
 
 $$\nabla\times\vec{E}=-\frac{1}{c}\frac{\partial \vec{B}}{\partial t},~~ \nabla \times\vec{B}=\frac{4\pi}{c}\vec{j}+\frac{1}{c}\frac{\partial\vec{E}}{\partial t},~~ \nabla\cdot\vec{E}=4\pi\rho_e,~~ \nabla\cdot\vec{B}=0$$
 
-$$F_{\rm Lorentz}=q\left(\vec{E}+\frac{\vec{x}\times\vec{B}}{c}\right)$$
+$$F_{\rm Lorentz}=q\left(\vec{E}+\frac{\vec{v}\times\vec{B}}{c}\right)$$
 
 ## 0.2 Plasma equations
 
